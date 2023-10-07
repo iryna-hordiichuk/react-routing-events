@@ -11,6 +11,7 @@ import { fetchEvents } from 'servises/eventsAPI';
 // from: location,
 // }
 export const EventsPage = () => {
+  
   const [events, setEvents] = useState([]);
 
   const location = useLocation();
