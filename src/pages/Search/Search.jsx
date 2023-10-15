@@ -21,8 +21,8 @@ export const Search = () => {
 // useEffect does not care ??? 
   useEffect(() => {
     if (!query) {
-      return;
-    }
+      return
+    };
     fetchEventsByName(query).then(setEvents);
   }, [query]);
 
